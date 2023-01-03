@@ -1,0 +1,14 @@
+version: '2'
+
+# networks:
+#   pet-app:
+#     driver: bridge
+
+services:
+  myapp:
+    image: 'sigit26/pet-app:latest'
+    container_name: 'sigit-petapp'
+    ports:
+      - 9900:9900
+    # networks:
+    #   - pet-app
