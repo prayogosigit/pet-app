@@ -59,4 +59,4 @@ npm install
 ### 3. Runing the app
 ```bash
 npm start
-```
+```# pet-app
